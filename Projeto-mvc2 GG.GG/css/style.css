@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(76, 3, 192);
+  height: 230px;
+}
+
+.GG-logo {
+  padding: 9px;
+  display: flex;
+  width: 320px;
+}
+.menu ul {
+  display: flex;
+  position: absolute;
+  top: 90px;
+  left: 1000px;
+}
+
+.menu a {
+  font-family: 'Poppins', sans-serif;
+  padding: 0px 30px 0px 0px;
+  text-decoration: none;
+  color: rgb(24, 24, 24);
+  font-size: 20px;
+}
+
+.menu a:hover {
+  transition: 0.5s;
+  color: rgb(13, 158, 255);
+}
+
+.titulo-index {
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.titulo2-index {
+  color: white;
+  text-align: center;
+  padding: 80px 0 0 0;
+}
+
+.sobre-parceria {
+  padding: 20px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+main {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(0, 6, 61, 0.918);
+  height: calc(200vh - 300px);
+  font-size: 30px;
+}
+
+.swiper {
+  width: 70%;
+  height: 70%;
+}
+
+.swiper img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+footer {
+  padding: 30px 0px 0px 0px;
+  background-color: rgb(76, 3, 192);
+  height: 100px;
+}
+
+footer h3 {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(24, 24, 24);
+  font-size: 20px;
+  text-align: center;
+}
+
+footer h3 a {
+  text-decoration: none;
+  color: rgb(180, 0, 251);
+  transition: 400ms;
+}
+
+footer h3 a:hover {
+  transition: 0.040s;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 23px;
+}
+
+/* */
